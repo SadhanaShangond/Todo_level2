@@ -5,7 +5,7 @@ import { deleteTask, getLabels, getTasks, newTask, updatedTask, updateLabels, up
 const router = express.Router();
 
 router.post("/task", newTask);
-router.get("/task", getTasks);
+router.get("/tasks", getTasks);
 router.put("/task/:id", updatedTask);
 router.get("/labels",getLabels);
 router.put("/task/:id/labels",updateLabels);
