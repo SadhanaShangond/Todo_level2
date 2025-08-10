@@ -8,7 +8,7 @@ import  Viewtask  from './Viewtask';
 import  EditTask  from './EditTask';
 
 const TaskMain = ( )=> {
-    const [currComponent,setCurrComponent] =useState("loading");
+    const [currComponent, setCurrComponent] = useState("loading");
     const [tasks,setTasks] = useState([]);
     const [activeTaskId,setActiveTaskId]=useState("");
     const [boardView,setBoardView]=useState(false);
