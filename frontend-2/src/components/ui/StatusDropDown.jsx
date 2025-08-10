@@ -9,7 +9,7 @@ import React, {
 } from "react";
 import toast from "react-hot-toast";
 import clsx from "clsx";
-import changeStatusAPI from "../api/changeStatusAPI";
+import changeStatusAPI from "../../components/api/changeStatusApis";
 
 let options = [
   {
